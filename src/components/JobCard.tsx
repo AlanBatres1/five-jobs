@@ -38,13 +38,7 @@ const JobCard: React.FC<JobCardProps> = ({
         </div>
 
         <div className="flex items-center justify-center w-full">
-          <Image
-            src={imageSrc}
-            alt={company}
-            width={200}
-            height={200}
-            className="rounded-xl"
-          />
+          <Image src={imageSrc} alt={company} width={200} height={200} className="rounded-xl"/>
         </div>
       </div>
     </div>
